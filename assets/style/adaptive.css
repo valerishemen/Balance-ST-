@@ -42,9 +42,10 @@ body{
     }
 
     .container__services{
+        text-shadow: none;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8,1fr) 0.5fr;
+        grid-template-rows: repeat(8,1fr) 0.3fr;
         grid-template-areas: 
         "img1"
         "t1"
@@ -94,8 +95,36 @@ body{
 .table_2{
     font-size: 3vw;
 }
+
 .head{
-    height: 15vw;
+    height: 20vw;
+    word-wrap: break-word;
+}
+.col-7{
+    width: 50%;
+}
+.w25{
+    width: 25%;
+}
+.col-3{
+    width: 25%;
+    text-align: center;
+}
+
+.container__price, .table_2, .table{
+    text-shadow: none;
+}
+
+.container__icon, .container__form{
+    width: 90%;
+}
+h3{
+    font-size: 5vw;
+    padding: 3% 3%;
+}
+.icon_text{
+    position: relative;
+    right: 100%;
 }
 
 }
