@@ -91,5 +91,11 @@ body{
     grid-area: img4;
 }
 
+.table_2{
+    font-size: 3vw;
+}
+.head{
+    height: 15vw;
+}
 
 }
