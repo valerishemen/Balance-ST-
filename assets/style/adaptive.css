@@ -26,23 +26,22 @@ body{
     }
     
     .main__button{
-        left: 25%;
+        left: 28%;
         bottom: 15%;
     }
     .button{
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .about__section{
         grid-template-columns: 1fr;
-        padding-top: 15px;
+        padding: 15px 15px;
     }
     .container__about{
         padding-bottom: 15px;
     }
 
     .container__services{
-        text-shadow: none;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8,1fr) 0.3fr;
@@ -91,28 +90,8 @@ body{
 #img_4{
     grid-area: img4;
 }
-
-.table_2{
-    font-size: 3vw;
-}
-
-.head{
-    height: 20vw;
-    word-wrap: break-word;
-}
-.col-7{
-    width: 50%;
-}
-.w25{
-    width: 25%;
-}
-.col-3{
-    width: 25%;
-    text-align: center;
-}
-
-.container__price, .table_2, .table{
-    text-shadow: none;
+.table{
+    font-size: 4vw;
 }
 
 .container__icon, .container__form{

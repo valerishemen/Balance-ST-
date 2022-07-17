@@ -22,8 +22,8 @@ div.header__logo{
     display: inline;
 }
 a.menu:hover{
-    color:rgb(70,63,177);
-    text-decoration: underline rgb(70,63,177);
+    color:rgba(255, 67, 66);
+    text-decoration: underline rgba(255, 67, 66);
     transition-duration: 0.5s;
 }
 
@@ -42,7 +42,7 @@ h1.main{
     font-style: italic;
     font-weight: 700;
     line-height: 5vw;
-    color:  rgb(52, 44, 165);
+    color: rgb(75, 56, 56);
     width: 100%;
 }
 
@@ -60,7 +60,7 @@ h1.main{
     bottom: 10%;
 }
 .button:hover{
-    background-color:rgb(70,63,177);
+    background-color: rgba(150,118,119);
     opacity: 1;
     transition-duration: 0.5s;
     color:  rgba(255, 67, 66);
@@ -82,28 +82,30 @@ h1.main{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 2%;
-    background:linear-gradient(90deg, rgba(70,63,177), rgb(70,63,177,0.5))  ;
+    background:linear-gradient(90deg, rgba(209,217,220), rgb(209,217,220,0.5));
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3% 2%;
     color:  rgba(255, 67, 66); 
-    text-shadow: 1px 1px 3px rgb(0 0 0 / 66%)
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 66%)
 }
 .container__about{
     border-radius: 30% 0 30% 0;
+
 }
 
 .container__services{
-    background:linear-gradient(90deg, rgba(70,63,177), rgb(70,63,177,0.5)) ;
+    background:linear-gradient(180deg, rgba(209,217,220), rgb(209,217,220,0.5));
     background-repeat: no-repeat;
     background-size: cover;
     color:  rgba(255, 67, 66); 
-    text-shadow: 1px 1px 3px rgb(0 0 0 / 66%);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 66%);
     display:flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 0;
+    padding-bottom: 3%;
 }
 
 .img_flex{
@@ -118,63 +120,32 @@ width: 50%;
 
 .text{
     width: 100%;
-    margin: 4% 18%;
+    margin-top: 3%;
+    text-align: center;
 }
 
 .container__price{
-    background:linear-gradient(180deg, rgba(70,63,177), rgb(70,63,177,0.5)) ;
+    background:linear-gradient(180deg, rgba(209,217,220), rgb(209,217,220,0.5));
     background-repeat: no-repeat;
     background-size: cover;
     color:  rgba(255, 67, 66); 
-    text-shadow: 1px 1px 3px rgb(0 0 0 / 66%);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 66%);
+    padding: 3% 2%;
 }
 
 .table{
-    font-size: 1.6vw;
-    border: 1px solid black;
+    margin-left: 1%;
+    font-size: 2vw;
     color:  rgba(255, 67, 66); 
     font-weight: 500;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.77);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.77);
 }
-th{
-    border: 1px solid black;
-    text-justify: auto;
-    vertical-align: middle;
-}
-td{
-    border: 1px solid black;
-    text-align: center;
-    width: 15%;
-    
-}
-.name{
-    width: 15%;
-}
+
 h4{
     text-align: center;
     margin: 2% auto;
 }
-.table_2{
-    font-size: 1.5vw;
-    background:linear-gradient(180deg,  rgba(255, 67, 66),  rgba(255, 67, 66,0.5)) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:  rgba(70,63,177);
-    text-shadow: 1px 1px 2px rgb(0 0 0 / 66%);
-    border: 1px solid black;
 
-}
-.table_2>div{
-    padding-left: 1%;
-    margin-bottom: 2%;
-}
-
-.head{
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    height: 5vw;
-    font-weight: 600;
-}
 
 /*Стили для контактов и формы*/
 .container__contacts{
@@ -206,6 +177,11 @@ a.text{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+a:hover{
+    color:rgba(255, 67, 66);
+    text-decoration: underline rgba(255, 67, 66);
+    transition-duration: 0.5s;
 }
 .icon_text{
     position: relative;
@@ -243,7 +219,7 @@ input:focus, textarea:focus {
 /* footer*/
 
 footer{
-    background-color:  rgba(255, 67, 66, 0.8);
+    background-color: rgb(209,217,220);
     margin-top: 5vw;
     height: 10vw;
     display: flex;
